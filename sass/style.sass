@@ -1,0 +1,264 @@
+*
+  font-family: 'Roboto', sans-serif
+
+header
+  height: 50px
+  background-color: #212121
+
+.menu
+  display: flex
+  justify-content: space-between
+  padding: 13px 70px
+  margin: 0px
+  list-style-type: none
+
+  .menu_link
+    color: #ffffff
+    font-style: 15px
+    font-weight: 300
+    text-decoration: none
+
+  .menu_item
+    border-right: 2px dotted black
+    padding-right: 70px
+
+.promo
+  min-height: 800px
+  background: url('../image/photoleft.jpg') center (center / cover) no-repeat
+  padding: 60px 0 135px 0
+
+  .promologo
+    margin-left: 10%
+    width: 130px
+
+  .promo_header
+    color: #ffffff
+    font-weight: 900
+    text-transform: uppercase
+    font-style: 60px
+    line-height: 60px
+    margin: 0px
+    text-align: center
+
+    span
+      color: #4fa509
+
+  .promo_subheader
+    color: #ffffff
+    font-weight: 900
+    text-transform: uppercase
+    font-style: 36px
+    line-height: 36px
+    margin: 0px
+    margin-top: 8px
+    text-align: center
+
+  .promo_descr
+    color: #ffffff
+    font-style: 18px
+    line-height: 24px
+    font-weight: 300
+    margin-top: 50px
+    text-align: center
+
+    span
+      color: #4fa509
+
+  .promo_btn
+    display: block
+    margin: 118px auto 0 auto
+    width: 259px
+    height: 63px
+    box-shadow: inset 0 -4 0 rgba(0, 0, 0, 0.12)
+    border: none
+    border-radius: 4px
+    background-image: linear-gradient(to top, #f93 0%, #f60 100%)
+    color: #ffffff
+    font-style: 18px
+    font-weight: 200
+    text-transform: uppercase
+
+.req
+  display: flex
+  justify-content: space-between
+  min-height: 400px
+  padding: 50px 0
+  background-color: #ffffff
+
+  .reqblock
+    display: flex
+    justify-items: space-between
+    padding: 10px
+    text-align: center
+
+  .imgreq
+    padding: 10px
+    width: 120px
+
+  .reqblock .reqblocktitle
+    margin-bottom: 10px
+
+.description
+  background-color: #4a4a4a4a
+  min-height: 250px
+
+  /*     padding: 5px;
+
+  .descrheader
+    text-align: center
+
+    /*     padding: 20px;
+
+    span
+      color: #4fa509
+
+  .descrblock
+    display: flex
+    justify-content: space-between
+
+    .descr
+      background-color: #00CCFFFF
+      border-radius: 11px
+      line-height: 18px
+      text-align: center
+
+      /*     padding: 5px 9px;
+       *  margin: 5px;
+      font-weight: 300
+
+.anketa
+  padding: 150px
+  background-color: #f69a73
+  min-height: 700px
+
+  .decor
+    position: relative
+    max-width: 400px
+    margin: 0 auto
+    background: white
+    border-radius: 30px
+
+  .form-left-decoration
+    content: ""
+    position: absolute
+    width: 50px
+    height: 20px
+    background: #f69a73
+    border-radius: 20px
+
+.form-right-decoration
+  content: ""
+  position: absolute
+  width: 50px
+  height: 20px
+  background: #f69a73
+  border-radius: 20px
+
+.anketa
+  .form-left-decoration
+    bottom: 60px
+    left: -30px
+
+  .form-right-decoration
+    top: 60px
+    right: -30px
+
+  .form-left-decoration:before
+    content: ""
+    position: absolute
+    width: 50px
+    height: 20px
+    border-radius: 30px
+    background: white
+
+.form-left-decoration:after
+  content: ""
+  position: absolute
+  width: 50px
+  height: 20px
+  border-radius: 30px
+  background: white
+
+.form-right-decoration
+  &:before, &:after
+    content: ""
+    position: absolute
+    width: 50px
+    height: 20px
+    border-radius: 30px
+    background: white
+
+.anketa
+  .form-left-decoration
+    &:before
+      top: -20px
+
+    &:after
+      top: 20px
+      left: 10px
+
+  .form-right-decoration
+    &:before
+      top: -20px
+      right: 0
+
+    &:after
+      top: 20px
+      right: 10px
+
+  .circle
+    position: absolute
+    bottom: 80px
+    left: -55px
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    background: white
+
+  .form-inner
+    padding: 50px
+
+    input
+      display: block
+      width: 100%
+      padding: 0 20px
+      margin-bottom: 10px
+      background: #E9EFF6
+      line-height: 40px
+      border-width: 0
+      border-radius: 20px
+
+.form-inner textarea
+  display: block
+  width: 100%
+  padding: 0 20px
+  margin-bottom: 10px
+  background: #E9EFF6
+  line-height: 40px
+  border-width: 0
+  border-radius: 20px
+
+.anketa .form-inner
+  input[type="submit"]
+    margin-top: 30px
+    background: #f69a73
+    border-bottom: 4px solid #d87d56
+    color: white
+    font-size: 14px
+
+  textarea
+    resize: none
+
+  h3
+    margin-top: 0
+    font-weight: 500
+    font-size: 24px
+    color: #707981
+
+.finish
+  background-color: black
+
+  .finishtext
+    text-align: center
+    color: #FF6600FF
+    padding: 20px 0
